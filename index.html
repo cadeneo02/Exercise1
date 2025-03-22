@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css"> <!-- Links CSS & styling -->
+  <meta name="title" content="Caden's Web Page Assignment">
+  <title>Caden's Web Page Assignment</title> <!-- Title for the web page -->
+</head>
+<body>
+  
+  <!-- Creates header section & visible title -->
+  <header class="header">
+    <h1>Caden's Web Page</h1>
+  </header>
+  
+  <!-- Creates main/body section of the page -->
+  <main class="main">
+    <section>
+      <!-- Aside introduction welcoming users -->
+      <aside class="aside1"> 
+      Welcome to my first page for COMP 324!
+      </aside>
+
+      <!-- Loads logo figure onto page, including the alt & caption describing it -->
+      <figure class="figure">
+        <img src="/Users/cadenostrowski/Documents/COMP 324/Assignment 1/CadenEO White Logo.png" alt="This is an image of my logo">
+        <figcaption class="figcaption">(Caden Ostrowski, 2021)</figcaption>
+      </figure>
+    </section>
+
+    <!-- Section for more information about the logo -->
+    <section>
+      <p class="logo-info">This is a logo that I designed myself. I made it in 2017, and revised it until I got the version you see here. This is just one of a few different variations that I have, but is the one that I tend to use the most when I create things.</p>
+    </section>
+  
+    <!-- Feedback Section -->
+    <h2 class="feedback-title">What Do You Think of the Logo?</h2>
+    <div class="feedback-container"> <!-- Creates actual feedback area -->
+      <input type="text" placeholder="Give Your Thoughts Here" class="input">
+      <button id="submit-button" class="button">Submit</button> <!-- Creates interactive button for feedback submission -->
+    </div>
+
+    <!-- JavaScript File Output -->
+    <section class="js-output">
+      <p id="output"></p> <!-- Establishes JavaScript file & that it updates this element -->
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    A Website By Caden Ostrowski, 2025
+  </footer>
+
+  <!-- Link to JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>

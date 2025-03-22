@@ -1,0 +1,103 @@
+/* General style of the web page */
+body {
+  background-color: black;
+  font-family: Arial;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+.header {
+  background-color: #163973;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 12px;
+}
+
+/* Main Styling */
+.main {
+  padding: 15px;
+}
+
+/* Aside 1 Styling */
+.aside1 {
+  text-align: center;
+  color: white;
+}
+
+/* Figure and Image Styling */
+.figure {
+  text-align: center;
+}
+
+.figure img {
+  display: block;
+  margin: 0 auto;
+  width: 333px;
+  height: 400px;
+}
+
+.figcaption {
+  color: lightgray;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Info Paragraph Styling */
+.logo-info {
+  color: white;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+/* Feedback Section Styling */
+.feedback-title {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  margin-top: 30px;
+}
+
+.feedback-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Input Styling */
+.input {
+  font-style: italic;
+  border: none;
+  padding: 10px;
+  width: 40%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Button Styling & Behavior */
+.button {
+  padding: 10px 20px;
+  background-color: #163973;
+  color: white;
+  border: none;
+  font-weight: bold;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+/* JavaScript Output Styling */
+.js-output {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #163973;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-style: italic;
+}
